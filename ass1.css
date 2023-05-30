@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(227, 222, 216);
+}
+#start1{
+    color: blue;
+}
+#start2{
+    color: brown;
+    height: 200px;
+    display: grid;
+    justify-content: space-evenly;
+    border: 1px solid black;
+grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#start3{
+    border: 1px solid black;
+    display: flexbox;
+    display: grid;
+}
+#start4{
+    display: flex;
+}

@@ -1,0 +1,14 @@
+body{
+    color:burlywood;
+}
+#start1{
+    height: 200px;
+    /* width: 50%; */
+    /* flex-direction: row-reverse; */
+    display: grid;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    border: 1px solid black;
+grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
